@@ -52,11 +52,13 @@
                 android:text="78°"
                 android:textSize="100dp"
                 android:textColor="#ffffff"
-                android:layout_marginRight="30dp"/>
+                android:layout_marginRight="30dp"
+                android:id="@+id/weather_temp"/>
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:src="@drawable/sunny"
+                android:id="@+id/weather_ime_sec"
                 />
 
         </LinearLayout>
@@ -71,14 +73,16 @@
                 android:text="Portland, USA"
                 android:textSize="20dp"
                 android:textColor="#ffffff"
-                android:layout_weight="1"/>
+                android:layout_weight="1"
+                android:id="@+id/weather_loc"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Clear"
                 android:textSize="20dp"
                 android:textColor="#ffffff"
-                android:layout_weight="1"/>
+                android:layout_weight="1"
+                android:id="@+id/weather_des"/>
 
         </LinearLayout>
 
